@@ -1,14 +1,14 @@
 #pragma once
 #define MYTYPE_A 100
 #define MYTYPE_B 200
-// ¸Å°³º¯¼ö ÇÏ³ª
+// ë§¤ê°œë³€ìˆ˜ í•˜ë‚˜
 // 
 //int TestFuncDef(int nParam = 10);
 int TestFuncDef(int = 10);
-// À§ ¾Æ·¡ TestFuncDef ¸ğµÎ °°Àº ÀÇ¹Ì.
-// ¾Æ·¡¿Í °°ÀÌ ¼±¾ğ ½Ã ÇÔ¼ö ¿øÇü(Á¤ÀÇ ºÎºĞ)ÀÌ ¹ºÁö ¾Ë ¼ö°¡ ¾øÀ½ - µÇµµ·Ï ¾È¾²´Â°É ÃßÃµ
+// ìœ„ ì•„ë˜ TestFuncDef ëª¨ë‘ ê°™ì€ ì˜ë¯¸.
+// ì•„ë˜ì™€ ê°™ì´ ì„ ì–¸ ì‹œ í•¨ìˆ˜ ì›í˜•(ì •ì˜ ë¶€ë¶„)ì´ ë­”ì§€ ì•Œ ìˆ˜ê°€ ì—†ìŒ - ë˜ë„ë¡ ì•ˆì“°ëŠ”ê±¸ ì¶”ì²œ
 
-//¸Å°³º¯¼ö µÑ
+//ë§¤ê°œë³€ìˆ˜ ë‘˜
 
 int TestFuncDef2(int nParam1, int nParam2 = 2);
 
@@ -28,4 +28,4 @@ template <typename T>
 T AddTmp(T a, T b);
 
 int Add2(int a, int b);
-inline int AddNew(int a, int b);12
+inline int AddNew(int a, int b);
